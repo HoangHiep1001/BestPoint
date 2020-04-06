@@ -1,4 +1,4 @@
-package main.java.hiephm;
+package main.java;
 
 public class Point {
     private int x;

@@ -1,4 +1,4 @@
-package main.java.hiephm;
+package main.java;
 
 public class Sensor {
     private int r;
