@@ -1,21 +1,21 @@
 package main.java;
 
 public class Sensor {
-    private int r;
+    private double r;
     private double x;
     private double y;
 
-    public Sensor(int r, double x, double y) {
+    public Sensor(double x, double y,double r) {
         this.r = r;
         this.x = x;
         this.y = y;
     }
 
-    public int getR() {
+    public double getR() {
         return r;
     }
 
-    public void setR(int r) {
+    public void setR(double r) {
         this.r = r;
     }
 

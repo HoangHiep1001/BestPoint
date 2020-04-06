@@ -1,28 +1,39 @@
 package main.java;
 
 public class Point {
-    private int x;
-    private int y;
-    private int idPoint;
-    public Point(int idPoint,int x, int y){
-        this.idPoint = idPoint;
+    private double x;
+    private double y;
+    private int num;
+    public Point(double x, double y){
         this.x = x;
         this.y = y;
     }
-
-    public int getX() {
+    public Point(double x, double y,int num){
+        this.num= num;
+        this.x = x;
+        this.y = y;
+    }
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(double y) {
         this.y = y;
+    }
+
+    public int getNum() {
+        return num;
+    }
+
+    public void setNum(int num) {
+        this.num = num;
     }
 }
