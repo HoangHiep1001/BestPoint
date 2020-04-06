@@ -13,6 +13,8 @@ public class BestPoint {
     private int time;
     private int r_sensor;
     List<Point> points;
+    private Point startPoint;
+    private Point endPoint;
     public List<Point> readData(){
         List<Point> pointList = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(new File("input.txt")))) {
@@ -31,7 +33,7 @@ public class BestPoint {
     }
     public double search(List<Point> points){
         double rs = 0;
-
+        
         return rs;
     }
 }
